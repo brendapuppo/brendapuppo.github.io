@@ -39,3 +39,20 @@ let getJSONData = function(url){
         return result;
     });
 }
+
+
+document.addEventListener('DOMContentLoaded', ()=>{
+  document.getElementById('salir').addEventListener('click',()=>{
+    localStorage.removeItem('storeUsuario');
+    location.href = 'login.html';
+});
+let usuario = localStorage.getItem('storeUsuario');
+document.getElementById('muestraUsuario').innerHTML += usuario;
+    if (usuario == null) {
+      Swal.fire({
+        title: 'Debe iniciar sesión para continuar',
+        confirmButtonText: '<a href="login.html">OK</a>',
+        confirmButtonColor: 'white'
+      });
+    };
+});

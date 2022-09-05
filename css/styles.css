@@ -188,3 +188,71 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+#fotoInicio{
+  width: 20%;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.autenticar {
+  background-color: rgba(220, 220, 220, 0.122);
+}
+
+.inicio {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 5%;
+  font-size: 22px;
+}
+
+.form {
+  text-align: center;
+}
+
+.form .form-label {
+  margin-top: 2%;
+  margin-bottom: -10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form .form-control {
+  margin: auto;
+  width: 300px;
+}
+
+#autBtn {
+  margin-top: 3%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+#footer .float-end {
+  text-align: right;
+}
+
+.error {
+  border-color: red;
+  border-width: thick;
+}
+
+#salir {
+  font-size: smaller;
+  float: right;
+}
+
+#catName {
+  font-weight:bolder;
+}
+
+#buscar {
+  float: left;
+  width: 20%;
+  height: min-content;
+}

@@ -16,24 +16,35 @@
   </style>
 </head>
 
-<body>
-  <main class="mt-5">
-    <div class="container">
-      <div class="alert alert-danger text-center" role="alert">
-        <h4 class="alert-heading">Funcionalidad en desarrollo</h4>
-      </div>
+<body class="autenticar">
+  <div class="container">
+    <div class="header">
+        <img src="img/login.png" alt="Logo" id="fotoInicio">
+        <h1 class="inicio">Inicio de sesión</h1>
     </div>
-  </main>
-  <footer class="text-muted">
+    <div class="form">
+        <div class="form01">
+            <label for="usuario" class="form-label" >Usuario</label>
+            <input type="usuario" class="form-control" id="usuario" name="usuario">
+          </div>
+          <div class="form02">
+            <label for="clave" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="clave" name="clave">
+          </div>
+          <button class="btn btn-primary" type="button" id="autBtn">Ingresar</button>
+    </div>
+
+  <footer class="text-muted" id="footer">
     <div class="container">
       <p class="float-end">
         <a href="#">Volver arriba</a>
       </p>
-      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jovenes a Programar</a> -
+      <p>Este sitio forma parte de <a href="https://jovenesaprogramar.edu.uy/" target="_blank">Jóvenes a Programar</a> -
         2022</p>
       <p>Clickea <a target="_blank" href="Letra.pdf">aquí</a> para descargar la letra del obligatorio.</p>
     </div>
   </footer>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="js/login.js"></script>
 </body>
 
